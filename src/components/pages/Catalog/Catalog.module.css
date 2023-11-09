@@ -1,0 +1,163 @@
+.upper {
+    background-color: white;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: 8%;
+}
+
+.routes {
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+}
+.routesMain {
+    font-family: 'Roboto', sans-serif;
+    color: #514A7E;
+}
+
+.bodyHeader {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sortBy {
+    color: #7D7D7D;
+}
+.popularity, .rating, .price, .discount, .update {
+    font-family: 'Roboto', sans-serif;
+}
+.rangeSide {
+    margin-top: 2vh;
+}
+.side {
+    margin-top: 5vh;
+}
+.sizeDiv {
+    display: flex;
+    align-items: center;
+}
+.colourDiv {
+    display: flex;
+    align-items: center;
+}
+.colorSide, .sizeSide, .priceSide {
+    font-family: 'Roboto', sans-serif;
+}
+.arrowIcon {
+    margin-left: 1%;
+}
+.rangeDiv {
+    position: absolute;
+    top: 39vh;
+    left: 8.3%;
+    width: 6.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.at {
+    color: #7D7D7D;
+    font-size: 0.6em;
+}
+.to {
+    color: #7D7D7D;
+    font-size: 0.6em;
+}
+.mainP {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+
+.priceDiv {
+    margin-left: 0.6%;
+    margin-bottom: 0%;
+    display: flex;
+}
+
+.actualPrice {
+    /* position: relative;
+    bottom: 2vh; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    font-weight: 700;
+}
+
+.infoText {
+    /* position: relative; */
+    color: #7D7D7D;
+    margin-top: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    /* bottom: 4vh; */
+}
+
+.promotionsFavouriteButton {
+    font-size: 1.5em;
+    position: relative;
+    bottom: 3vh;
+    left: 1.5%;
+}
+
+.promotionsCartButton {
+    position: relative;
+    font-size: 1.5em;
+    bottom: 3vh;
+    left: 2.5%;
+}
+
+.info {
+    margin-left: 0.6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreButton {
+    font-size: 1em;
+    width: 40%;
+    height: 4vh;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: solid 0.5px black;
+    margin-left: 0.7%;
+
+}
+
+.moreButtonArrow {
+    margin-left: 8%;
+    margin-bottom: 1.7%;
+}
+
+.infoFooter {
+    display: flex;
+    align-items: flex-end;
+}
+
+.starDiv {
+    margin-left: 3%;
+    color: #514A7E;
+}
+
+.footerStar {
+    font-size: 0.75em;
+}
+.catalogItems {
+    position: relative;
+    left: 12%;
+    bottom: 20vh;
+}
+
+.firstRow {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondRow {
+    margin-top: 5vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.functionalIcons {
+    width: 20%;
+}

@@ -1,0 +1,174 @@
+.root {
+    background-color: white;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: 8%;
+}
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+.headerCart {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.mainP {
+    margin-left: 15%;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+.shopIcon {
+    margin-left: 5%;
+}
+.cartNumber {
+    margin-bottom: 5vh;
+}
+
+/* .firstPicture {
+    padding-bottom: 13vh;
+} */
+.offerRoot {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerOffer {
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thingName {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;    
+}
+.articleName {
+    color: #7D7D7D;
+    font-size: 1em;
+}
+
+.mainOffer {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colorName, .sizeName {
+    color: #7D7D7D;
+    font-size: 1em;
+}
+
+.thingPlusMinus {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minus, .plus {
+    background-color: white;
+    width: 10%;
+    color: #514A7E;
+}
+.count {
+    color: #514A7E;
+    font-size: 1.5em;
+    padding-bottom: 0.5vh;
+}
+
+.footerOffer {
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.favouriteOffer, .deleteOffer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.offerIcons {
+    font-size: 1.5em;
+}
+.favouriteText, .deleteText {
+    padding-left: 5%;
+    color: #7D7D7D;
+}
+
+.rightSide {
+    margin-left: 13%;
+    margin-bottom: 3vh;
+    width: 100%;
+}
+.priceLabel {
+    font-size: 1.5em;
+    padding-bottom: 0.5vh;
+    font-family: 'Roboto', sans-serif;
+}
+.price {
+    margin-top: 0vh;
+    color: #514A7E;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+.informationDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.information {
+    font-family: 'Roboto', sans-serif;
+}
+.rootOffers {
+    display: flex;
+    flex-direction: column;
+}
+.bodyOffer {
+    margin-left: 5%;
+}
+.priceTotal {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.totalPrice {
+    color: #514A7E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+.items {
+    color: #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+}
+.allCount {
+    color: #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+}
+.pageFooter {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.order {
+    margin-top: 5vh;
+    margin-bottom: 50vh;
+    width: 9%;
+    height: 3vh;
+    border: 0.5px solid #514A7E;
+    background-color: #514A7E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

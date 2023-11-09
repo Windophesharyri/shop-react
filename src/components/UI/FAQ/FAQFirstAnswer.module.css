@@ -1,0 +1,11 @@
+.mainDiv {
+    position: relative;
+    bottom: 5vh !important;
+    border-bottom: solid 0.5px #7D7D7D;
+    width: 95%;
+}
+.text {
+    width: 95%;
+    color: #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,147 @@
+.chooseDiv {
+    position: relative;
+    bottom: 35vh;
+}
+
+.chooseDivMainP {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chooseFirstLine {
+    display: flex;
+}
+
+.chooseFirstP {
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+    font-size: 1em;
+    width: 10%;
+}
+
+.chooseSecondP {
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+    font-size: 1em;
+    width: 10%;
+}
+
+.chooseThirdP,
+.chooseFourthP {
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+    font-size: 1em;
+    width: 15%;
+}
+
+.firstDot {
+    position: relative;
+    width: 3vh;
+    height: 3vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    top: 4vh;
+    right: 4vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.secondDot {
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    bottom: 4vh;
+    right: 4vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.thirdDot {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    top: 15vh;
+    right: 0vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.chooseSecondLine {
+    display: flex;
+}
+
+.chooseFifthP {
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+    font-size: 1em;
+    width: 15%;
+}
+
+.chooseSixthP {
+    margin-left: 30%;
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+    font-size: 1em;
+    width: 14%;
+}
+
+.thirdDotArrow {
+    position: relative;
+    top: 2.7vh;
+    left: 3.5vh;
+}
+
+.fourthDot {
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    top: 4vh;
+    right: 6vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.fifthDot {
+    position: relative;
+    width: 3vh;
+    height: 3vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    top: 1vh;
+    right: 4vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.sixthDot {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    top: 5vh;
+    left: 25vh;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.sixthDotDialog {
+    position: relative;
+    top: 2.6vh;
+    left: 2.5vh;
+}

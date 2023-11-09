@@ -1,0 +1,94 @@
+.actualFooter {
+    width: 100%;
+    background-color: #514A7E;
+    height: 40vh;
+}
+.footerContent {
+    margin-left: 10%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.footerInformation {
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+}
+.footerCabinet {
+    margin-left: 10%;
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: flex-start; */
+}
+.footerContact {
+    margin-left: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footerSocial {
+    margin-left: 0%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.informationMain {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+}
+.informationText {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.cabinetMain {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15% !important;
+}
+.cabinetText {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+}
+.contactMain {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4%;
+}
+.contactText {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    width: 50%;
+    margin-bottom: 0%;
+}
+.cabinetMain {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4%;
+}
+.socialIcons {
+    margin-top: 0%;
+}
+.secondPartDiv {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.secondPartDivP {
+    font-family: 'Roboto', sans-serif;
+}
+.thirdPartDiv {
+    display: flex;
+    align-items: center;
+}
+.thirdPartDivP {
+    font-family: 'Roboto', sans-serif;
+}
+.FooterLogo {
+    position: relative;
+    bottom: 12vh;
+    left: 170vh;
+}

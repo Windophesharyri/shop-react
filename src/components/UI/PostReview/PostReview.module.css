@@ -1,0 +1,144 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.root {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+
+    z-index: 10;
+}
+
+.rootModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 40%;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+}
+
+.inner {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.closeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+.divCloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.firstInput {
+    border: 0;
+    outline: none;
+    border-bottom: solid 0.5px #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    width: 94%;
+}
+.textArea {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    height: 7vh;
+    margin-top: 2vh;
+    border: 0;
+    font-size: 1.3em;
+    outline: none;
+}
+.primary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.another {
+    width: 60%;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-top: 4vh;
+    display: flex;
+    align-items: center;
+}
+.textAreaDiv {
+    width: 95%;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 2vh;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+}
+.textAreaP {
+    color: #7D7D7D;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainP {
+    margin-top: 0vh;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textArea {
+    resize: none;
+}
+.starDiv {
+    margin-top: 2vh;
+    display: flex;
+    color: #514A7E;
+}
+.footerStar {
+    font-size: 2em;
+}
+.sendButton {
+    margin-top: 13%;
+    margin-bottom: 5vh;
+    padding-left: 3%;
+    width: 35%;
+    height: 4vh;
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+
+.sendButtonDiv {
+    display: flex;
+}
+
+.arrowSendButton {
+    margin-left: 10%;
+    text-align: center;
+}
+.svgPhoto {
+    margin-left: 4%;
+}

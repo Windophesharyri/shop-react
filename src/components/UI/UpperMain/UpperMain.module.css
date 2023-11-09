@@ -1,0 +1,82 @@
+.leftFirstPic {
+    font-size: 1em;
+    width: 50%;
+    height: 60%;
+}
+
+.rightFirstPic {
+    border: 0;
+    width: 42%;
+    height: 42%;
+}
+
+.picDiv {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMainP {
+    color: #121212;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    width: 75%;
+}
+
+.headerMainPImportant {
+    color: #514A7E;
+    font-family: 'Bad Script', cursive;
+}
+
+.headerMainAdittionalP {
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+}
+
+.picDivInner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.catalogButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elipseButtonArrow {
+    margin-bottom: 12%;
+}
+
+.catalogIcon {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #514A7E;
+    border-radius: 100%;
+
+    transition: .3s;
+}
+
+.catalogImg {
+    stroke: #514A7E;
+
+    margin-right: -20%;
+    margin-top: 2.4%;
+}
+
+.catalogText {
+    color: #514A7E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-right: 20%;
+    text-decoration: none;
+    border-bottom: 0;
+}

@@ -1,0 +1,61 @@
+.cooperation {
+    position: relative;
+    bottom: 30vh;
+}
+
+.mainTextCooperation {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.additionalTextCooperation {
+    color: #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    width: 98%;
+}
+
+.firstAdvantages,
+.secondAdvantages {
+    display: flex;
+    margin-top: 4%;
+}
+
+.Advantage,
+.nAdvantage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0%;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+}
+
+.nAdvantage {
+    margin-left: 12%;
+}
+
+.secondMainText {
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+/* .test {
+    transform: scale(2);
+    stroke-width: 0.5px;
+    stroke: #514A7E;
+    flex-shrink: 0;
+} */

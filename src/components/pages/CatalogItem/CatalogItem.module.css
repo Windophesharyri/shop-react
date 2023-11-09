@@ -1,0 +1,212 @@
+.root {
+    background-color: white;;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: 8%;
+}
+.backButton {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+.routes {
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+}
+.routesMain {
+    font-family: 'Roboto', sans-serif;
+    color: #514A7E;
+}
+.header {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.itemHeader {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.additional {
+    font-family: 'Roboto', sans-serif;
+    color: #7D7D7D;
+}
+
+.itemBody {
+    display: flex;
+    align-items: center;
+}
+.pic {
+}
+.itemContent {
+    margin-left: 5%;
+}
+.price {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 2em;
+}
+.colour, .size, .descriptionTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.coloursDiv {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.white {
+    border: solid 0.5px black;
+    width: 2vh;
+    height: 2vh;
+    background-color: white;
+    border-radius: 100%;
+}
+.white:active {
+    background-color: red;
+}
+.black {
+    width: 2vh;
+    height: 2vh;
+    background-color: black;
+    border-radius: 100%;
+}
+.black:active {
+    background-color: red;
+}
+.green {
+    width: 2vh;
+    height: 2vh;
+    background-color: #1FA68E;
+    border-radius: 100%;
+}
+.green:active {
+    background-color: red;
+}
+.pink {
+    width: 2vh;
+    height: 2vh;
+    background-color: #DC39CC;
+    border-radius: 100%;
+}
+.pink:active {
+    background-color: red;
+}
+.yellow {
+    width: 2vh;
+    height: 2vh;
+    background-color: #FFF385;
+    border-radius: 100%;
+}
+.yellow:active {
+    background-color: red;
+}
+
+.sizeDiv {
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.up {
+    color: #514A7E;
+    font-size: 1.5em;
+}
+.down {
+    color: #7D7D7D;
+    font-size: 0.8em;
+}
+.sSize, .mSize, .lSize, .xlSize {
+    margin-right: 5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 0.5px #514A7E;
+    background-color: white;
+}
+.sSize:active, .mSize:active, .lSize:active, .xlSize:active {
+    background-color: #514A7E;
+}
+
+.priceTable {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid 1px #514A7E;
+    font-weight: 700;
+    color: #514A7E;
+    width: 50%;
+}
+
+.actionsDiv {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #514A7E;
+    color: white;
+    border: 0;
+    width: 80%;
+    height: 4vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-right: 10%;
+    border: 0.5px solid #514A7E;
+}
+.favourite {
+    font-size: 3em;
+}
+.starDiv {
+    width: 50%;
+    color: #514A7E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.star {
+    font-size: 1.4em;
+}
+.reviewDiv {
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allReviews {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid 1px #514A7E;
+    font-weight: 700;
+    color: #514A7E;
+    width: 39%;
+}
+.addReviews {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid 1px #514A7E;
+    font-weight: 700;
+    color: #514A7E;
+    width: 29%;
+}
+
+.descriptionContent {
+    color: #7D7D7D;
+}

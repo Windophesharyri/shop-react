@@ -1,0 +1,126 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.root {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+
+    z-index: 10;
+}
+
+.rootModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 60%;
+    height: 55vh;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+    overflow: hidden;
+}
+
+.inner {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.closeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    background-color: #514A7E;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+}
+.divCloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.firstInput {
+    border: 0;
+    border-bottom: solid 0.5px #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    width: 57%;
+}
+.secondInput, .thirdInput {
+    margin-top: 4vh;
+    border: 0;
+    border-bottom: solid 0.5px #7D7D7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    width: 57%;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+}
+.passwordReminder {
+    margin-top: 3vh;
+    color: #514A7E;
+    font-family: 'Roboto', sans-serif;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    width: 70%;
+}
+.login {
+    padding: 1vh;
+    margin-top: 2vh;
+    font-size: 0.9em;
+    width: 40%;
+    background-color: #514A7E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+    border: 0
+}
+.registration {
+    padding: 1vh;
+    margin-top: 2vh;
+    font-size: 0.9em;
+    width: 40%;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 0.5px solid #514A7E;
+}
+.mainP {
+    margin-top: 0vh;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+.sideCircle {
+    position: relative;
+    bottom: 27vh;
+    left: 80%;
+    width: 40vh;
+    height: 40vh;
+    border: 1px solid #514A7E;
+    border-radius: 100%;
+}

@@ -1,0 +1,10 @@
+.secondSideCircle {
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    border: solid 1px;
+    border-radius: 100%;
+    color: #514A7E;
+    left: 95%;
+    bottom: 13vh;
+}

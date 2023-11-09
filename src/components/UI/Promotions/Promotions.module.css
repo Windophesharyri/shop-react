@@ -1,0 +1,124 @@
+.promotions {
+    position: relative;
+    bottom: 20vh;
+}
+
+.mainText {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.additionalText {
+    position: relative;
+    bottom: 6vh;
+    left: 15%;
+    font-size: 3em;
+    color: #514A7E;
+    font-family: 'Bad Script', cursive;
+}
+
+.allPromotions {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    bottom: 5vh;
+    margin-bottom: 0%;
+}
+
+.secondPromotion,
+.thirdPromotion,
+.fourthPromotion {
+    margin-left: 10%;
+}
+
+.promotionsFirstPic,
+.promotionsSecondPic,
+.promotionsThirdPic,
+.promotionsFourthPic {
+    margin-bottom: 0%;
+}
+
+.priceDiv {
+    margin-left: 3%;
+    margin-bottom: 0%;
+    display: flex;
+}
+
+.actualPrice {
+    /* position: relative;
+    bottom: 2vh; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+}
+
+.previousPrice {
+    /* position: relative;
+    bottom: 2vh; */
+    margin-left: 2%;
+    margin-top: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: #7D7D7D;
+    text-decoration: line-through;
+    text-decoration-color: #514A7E;
+}
+
+.infoText {
+    /* position: relative; */
+    color: #7D7D7D;
+    margin-top: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    /* bottom: 4vh; */
+}
+
+.promotionsFavouriteButton {
+    font-size: 1.5em;
+    position: relative;
+    bottom: 2vh;
+    left: 6vh;
+}
+
+.promotionsCartButton {
+    position: relative;
+    font-size: 1.5em;
+    bottom: 2vh;
+    left: 8vh;
+}
+
+.info {
+    margin-left: 3%;
+    display: flex;
+}
+
+.moreButton {
+    font-size: 1em;
+    width: 52%;
+    height: 4vh;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: solid 0.5px black;
+    margin-left: 0.7%;
+
+}
+
+.moreButtonArrow {
+    margin-left: 8%;
+    margin-bottom: 1.7%;
+}
+
+.infoFooter {
+    width: 100%;
+    margin-left: 2%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.starDiv {
+    margin-left: 23%;
+    color: #514A7E;
+}
+
+.footerStar {
+    font-size: 0.75em;
+}
